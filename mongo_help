@@ -1,0 +1,11 @@
+try {
+   db.getCollection('students').insertMany( [
+      { _id: 10, name: "Pawan", dept: 'CSE' },
+      { _id: 11, name: "Nitin", dept: 'CSE' },
+     { _id: 12, name: "Harshit ", dept: 'Mech' },
+   ] );
+} catch (e) {
+   print (e);
+}
+
+
