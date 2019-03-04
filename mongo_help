@@ -9,3 +9,11 @@ try {
 }
 
 
+
+
+
+mongodump --host 127.0.0.1 -d development --port 27017 --username user --password pass --out /opt/backup/mongodump-2013-10-07-1
+
+
+mongo mongodb://10.20.1.23:27017/EGColumbia
+
